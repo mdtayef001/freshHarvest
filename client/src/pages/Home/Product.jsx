@@ -7,7 +7,7 @@ const Product = () => {
   const [product, setProduct] = useState(products);
 
   return (
-    <section className="mt-52 max-w-[85%] mx-auto">
+    <section id="shop" className="mt-52 ">
       <SectionHeader
         title={"Our Products"}
         heading={"Our Fresh Products"}
@@ -40,11 +40,6 @@ const Product = () => {
             <ProductsCard item={item} />
           </div>
         ))}
-      </div>
-      <div className="text-center">
-        <button className="py-4 px-8 border border-[#FF6A1A] text-[#FF6A1A] text-lg font-bold rounded-lg mt-8 text-center">
-          See All Products
-        </button>
       </div>
     </section>
   );

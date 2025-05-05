@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import logo from "../assets/logo.png";
 import { FaHeart } from "react-icons/fa6";
 import { FaShoppingCart } from "react-icons/fa";
@@ -14,16 +13,16 @@ const Navbar = () => {
       <div className="hidden lg:flex ">
         <ul className="flex items-center justify-center gap-16 font-normal text-sm text-[#4A4A52]">
           <li>
-            <NavLink>Home</NavLink>
+            <a href="">Home</a>
           </li>
           <li>
-            <NavLink>Shop</NavLink>
+            <a href="#shop">Shop</a>
           </li>
           <li>
-            <NavLink>About</NavLink>
+            <a href="#about">About</a>
           </li>
           <li>
-            <NavLink>Blog</NavLink>
+            <a href="">Blog</a>
           </li>
         </ul>
       </div>
